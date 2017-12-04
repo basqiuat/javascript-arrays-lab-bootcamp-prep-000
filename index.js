@@ -27,18 +27,20 @@ function destructivelyRemoveFirstKitten(name){
 }
 
 function appendKitten(name){
-    [...kittens, name];
-    return kittens
+    var kittens 
     
-    function outerFunction() {
-    var innerVariable = "I'm sort of a secret.";
+    return [...kittens, name];
+    
+    
+    //function outerFunction() {
+    //var innerVariable = "I'm sort of a secret.";
  
-    return function innerScope() {
-    var inaccessible = "Nothing can touch me.";
+    //return function innerScope() {
+    //var inaccessible = "Nothing can touch me.";
  
-    return innerVariable;
-  }
-}
+    //return innerVariable;
+  //}
+//}
     
 }
 
